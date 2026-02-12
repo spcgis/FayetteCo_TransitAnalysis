@@ -13,7 +13,7 @@ require([
     const view = new MapView({
         container: "viewDiv",
         map: map,
-        center: [-80.3192, 40.6495], // Beaver County coordinates
+        center: [-79.856114, 40.138914], // Fayette County coordinates
         zoom: 10
     });
 
@@ -128,7 +128,7 @@ require([
 
     // Layer for block group outlines (green)
     const blockGroupOutlineLayer = new FeatureLayer({
-        url: "https://services3.arcgis.com/MV5wh5WkCMqlwISp/ArcGIS/rest/services/BCTA_Trip_Purpose/FeatureServer/0",
+        url: "https://services3.arcgis.com/MV5wh5WkCMqlwISp/ArcGIS/rest/services/FACT_TripPurpose/FeatureServer/0",
         id: "BlockGroupOutline",
         outFields: ["*"],
         visible: true,
@@ -141,7 +141,7 @@ require([
 
     // Create feature layers
     const beaverCountyBG = new FeatureLayer({
-        url: "https://services3.arcgis.com/MV5wh5WkCMqlwISp/ArcGIS/rest/services/BCTA_Trip_Purpose/FeatureServer/0",
+        url: "https://services3.arcgis.com/MV5wh5WkCMqlwISp/ArcGIS/rest/services/FACT_TripPurpose/FeatureServer/0",
         id: "BeaverCounty_BG",
         outFields: ["*"],
         visible: true,
@@ -384,7 +384,7 @@ require([
         
         // Create a new feature layer for the query
         const queryTable = new FeatureLayer({
-            url: "https://services3.arcgis.com/MV5wh5WkCMqlwISp/ArcGIS/rest/services/BCTA_Trip_Purpose/FeatureServer/1",
+            url: "https://services3.arcgis.com/MV5wh5WkCMqlwISp/ArcGIS/rest/services/FACT_Trip_Purpose/FeatureServer/0",
             outFields: ["*"],
             visible: false
         });
