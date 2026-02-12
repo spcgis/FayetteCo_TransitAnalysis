@@ -14,7 +14,7 @@ require([
         container: "viewDiv",
         map: map,
         center: [-79.856114, 40.138914], // Fayette County coordinates
-        zoom: 8
+        zoom: 9
     });
 
     // Initialize state variables
