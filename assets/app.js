@@ -70,7 +70,7 @@ require([
     <div style="margin-bottom: 10px;">
         <label for="daySelect">Day of Week:</label>
         <select id="daySelect" style="border: 1px solid #ccc">
-            <option value="Proposed">Proposed Microtransit Service Days (M-F)</option>
+            <option value="Proposed">Monday-Friday</option>
             <option value="0: All Days (M-Su)">All (Mon-Su)</option>
             <option value="1: Monday (M-M)">Monday</option>
             <option value="2: Tuesday (Tu-Tu)">Tuesday</option>
@@ -84,7 +84,7 @@ require([
     <div>
         <label for="timeSelect">Time Period:</label>
         <select id="timeSelect" style="border: 1px solid #ccc">
-            <option value="Proposed">Proposed Microtransit Service Times (6am–8pm)</option>
+            <option value="Proposed">FACT Service Times (6am–8pm)</option>
             <option value="00: All Day (12am-12am)">All (12am-12pm)</option>
             <option value="01: 6am (6am-7am)">6am-7am</option>
             <option value="02: 7am (7am-8am)">7am-8am</option>
