@@ -384,7 +384,7 @@ require([
         
         // Create a new feature layer for the query
         const queryTable = new FeatureLayer({
-            url: "https://services3.arcgis.com/MV5wh5WkCMqlwISp/ArcGIS/rest/services/FACT_Trip_Purpose/FeatureServer/0",
+            url: "https://services3.arcgis.com/MV5wh5WkCMqlwISp/ArcGIS/rest/services/FACT_TripPurpose/FeatureServer/1",
             outFields: ["*"],
             visible: false
         });
